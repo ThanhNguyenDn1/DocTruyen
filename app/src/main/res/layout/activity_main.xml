@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+
+        android:background="#54B2FD"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv_DanGian"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Dân Gian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="1dp"
+            android:layout_height="70dp">
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Kiếm Hiệp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="1dp"
+            android:layout_height="70dp">
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+          android:layout_weight="1"
+            android:text="Hiện Đại"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="1dp"
+            android:layout_height="70dp">
+        </LinearLayout>
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Ngôn Tình"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nen"
+        android:gravity="center">
+    </LinearLayout>
+</LinearLayout>

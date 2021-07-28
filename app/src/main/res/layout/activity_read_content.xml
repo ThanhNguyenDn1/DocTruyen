@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen10"
+    tools:context=".ReadContent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Truyen Kieu"
+            android:textColor="#F86436"
+            android:gravity="center"
+            android:id="@+id/tv_comic"
+            android:textSize="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:text="Noi Dung"
+            android:textSize="17dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/tv_contentcomic"
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+        </TextView>
+       <LinearLayout
+           android:layout_marginTop="15dp"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:textColor="@color/colorPrimary"
+               android:gravity="center"
+               android:layout_weight="1"
+               android:layout_gravity="center"
+               android:id="@+id/tv_privious"
+               android:textSize="20dp"
+               android:text="Previous"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:textColor="#FF1100"
+               android:gravity="center"
+               android:layout_weight="1"
+               android:layout_gravity="center"
+               android:id="@+id/tv_next"
+               android:textSize="20dp"
+               android:text="Next"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
